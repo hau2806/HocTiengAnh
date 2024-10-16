@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@-webkit-keyframes example {
+  from {left: 0px; background-color: purple;}
+  to {left: 500px; background-color: pink;}
+}
+
+@keyframes example {
+  from {left: 0px; background-color: purple;}
+  to {left: 500px; background-color: pink;}
+}
+
+/* Áp dụng animation vào phần tử */
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  -webkit-animation: example 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: example 5s infinite;
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

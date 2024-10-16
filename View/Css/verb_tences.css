@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    color: #000;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+}
+
+a{
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(88, 85, 85, 0.24);
+    transition: 0.4s;
+    
+}
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header .logo span{
+    color: red;
+  }
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+  }
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    font-size: 30px;
+    color: #000;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a:active{
+    background-color: #fff;
+    color: #2b1055;
+}
+header ul li:hover .sub-menu{
+    display: flex;
+  }
+  header ul li .sub-menu{
+    position: absolute;
+    display: none;
+    right: 200px;
+    margin-top: 5px;
+  }
+  header ul li .sub-menu li{
+    text-decoration: none;
+    padding: 6px 15px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+  }
+  header ul li .sub-menu li:hover{
+    background-color: #717171;
+    cursor: pointer;
+  }
+
+  ul li{
+    list-style: none;
+  }
+/*Container */
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+.container ul{
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container ul li{
+  padding-top: 5px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+/*#container .container-title{
+    text-align: center;
+    color: #fff;
+    padding-top: 35px;
+
+}
+#container .container-title h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3.8em;
+}
+#container .container-descrip{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#container .tence-list{
+    padding: 35px 0 50px 0;
+}
+#container .tence-list ul{
+    
+}
+#container .tence-list ul li{
+    list-style: none;
+    padding: 10px;
+}
+#container .tence-list ul li i{
+    font-size: 100px;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 10px;
+}
+#container .tence-list ul li a{
+    font-size: 1.5em;
+    color: #fff;
+    letter-spacing: 0.17em;
+    word-spacing: 0.2em;
+}
+#container .tence-list ul li a:hover{
+    color: rgb(4, 27, 236);
+}
+
+#container .different{
+    padding: 20px 0 120px 0;
+}
+#container .different h2{
+    font-size: 2.3em;
+    color: rgb(209, 116, 116);
+}
+#container .different ul{
+    padding-left: 30px;
+}
+#container .different ul li{
+    padding: 10px;
+}
+#container .different ul li a{
+    font-size: 1.2em;
+    color: rgb(189, 178, 178);
+}
+#container .different ul li i{
+    font-size: 100px;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 10px;
+} */
+
+/*Btn Go top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+  }
+
+  #myBtn:hover {
+    background-color: #555;
+  }
+  /* Footer */
+  /* #footer{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    text-align: center;
+    color: #fff;
+  }
+  #footer .footer-top{
+    padding: 10px 0 25px 0;
+  }
+  #footer .footer-top h1{ 
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  #footer .footer-top h1 span{
+    color: red;
+  }
+  #footer .footer-top p{
+    font-size: 1.4em;
+  }
+  #footer .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+  #footer .social-icons .social-item{
+      max-width: 70px;
+      max-height: 70px;
+  }
+  #footer .social-icons .social-item img{
+    max-width: 100%
+  }
+  #footer .copyright{
+    background: #000000;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   */
+  

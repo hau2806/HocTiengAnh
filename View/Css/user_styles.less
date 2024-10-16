@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(../Img_view/banner1.jpg)no-repeat;
+    background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    padding:0;
+    margin:0; 
+
+}
+
+.container{
+
+    .content{
+        max-width: 1170px;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        h2{
+            font-size: 280%;
+            color: darkgoldenrod;
+            padding-top: 50px;
+        }
+        h3{
+            font-size: 180%;
+            margin-top: 15px; 
+        }
+        .con{
+            padding: 15px;
+            a{
+                margin: 15px;
+                text-decoration: none;
+                color: #fff;
+                font-size: 120%;
+                &:hover{
+                    color: aqua;
+                }
+            }
+        }
+        .score-board{
+            display: flex;
+            justify-content: center;
+            height: 350px;
+            table{
+                border: 2px solid #000;
+                width: 500px;
+                tr{
+                    td{
+                        width: 150px;
+                        height: 50px;
+                        font-size: 150%;
+                    }
+                    #total, #score{
+                        color: red;
+                    }
+                }
+            }
+        }
+        .home{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: white;
+                .back-home{
+                    background: darkgoldenrod;
+                    width: 300px;
+                    height: 40px;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
